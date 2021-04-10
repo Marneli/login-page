@@ -1,0 +1,220 @@
+<!doctype html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Condiment|Pangolin" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <title>Facebook</title>
+
+    <style>
+      body {
+        background-color: #F5E9E2;
+      }
+      .header{
+        background-color: #0B0014;   
+        color: #F5E9E2;    
+        padding: 20px;
+      }
+      .header h1{
+        font-weight: bold;
+        margin-left: 70px;
+        font-family: 'Condiment';
+        font-family: 'Pangolin';
+      }
+      td{
+        padding-left: 10px;
+      }
+      a{
+        color: #D44D5C;
+      }
+      a:hover {
+        color: #773344;
+    }
+      .login{
+        display: flex;
+        position: absolute;
+        left: 60%;
+        top: 4%;
+        color: #F5E9E2;
+        font-family: 'Condiment';
+        font-family: 'Pangolin';
+      }
+      .login-btn{
+        border-radius: 2px;
+        outline: none;
+        color: #F5E9E2;
+        background: #D44D5C;
+        border: 1px solid #F5E9E2;
+      }
+      .logo{
+        position: absolute;
+        left: 90px;
+        top: 22%;
+        font-family: 'Condiment';
+        font-family: 'Pangolin';
+        font-size: 25px;
+        font-weight: bold;
+      }
+      .logo .connect{
+        width: 80%;
+      }
+      .create{
+        font-family: 'Condiment';
+        font-family: 'Pangolin';
+        position: absolute;
+        left: 60%;  
+        top: 20%;
+        color: #773344;
+      }
+      .create .create_acc{
+        font-size: 40px;
+        font-weight: bold;
+    }
+      .create .easy{
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 5px;
+    }
+      .create .signup_form td{
+        padding: 10px;  
+    }
+      .bday{
+        margin-top: -10px;
+        margin-bottom: 5px;
+    }
+      .gender{
+        margin-top: -10px;
+        margin-bottom: -2px;
+    }
+      .font{
+		    margin-top: -21px;
+		    margin-left: 20px;
+	  }
+      .agreement{
+        margin-top: -5px;
+        font-size: 12px;
+        width: 350px;
+        color: #0B0014;
+    }
+      .signup{
+        height: 38px;
+        width: 170px;
+        color: #F5E9E2;
+        font-size: 20px;
+        font-weight: bold;
+        border: none;
+        border-radius: 3px;
+        background: #D44D5C;
+        margin-top: 10px;
+    }
+      .page{
+        font-size: 14;
+    }
+    </style>
+
+  </head>
+  <body>
+    
+  <div class="header">
+    <h1>facebook</h1>
+  </div>
+    <div class="login">
+    <table>
+      <tr>
+        <td>Email or phone</td>
+        <td>Password</td>
+      </tr>
+      <tr>
+        <td> <input type="text" size="20"></td>
+        <td> <input type="password" size="20"> </td>
+        <td> <button type="login" class="login-btn">Log In</button></td>
+        
+      </tr>
+      <tr>
+        <td></td>
+        <td>Forgotten password?</td>
+      </tr>
+    </table>
+    </div>
+  </div>
+
+    <div class="logo">
+      <p>Facebook helps you connect and share</p>
+      <p> with the people in your life.</p>
+      <img class="connect" src="pic.png">
+    </div>
+
+    <div class="create">
+      <p class="create_acc">Create an account</p>
+      <p class="easy">It's quick and easy.</p>
+      <form class="signup_form">
+        <table>
+          <tr>
+            <td> <input type="text" size="21" placeholder="First name"></td>
+            <td> <input type="text" size="21" placeholder="Surname"> </td>
+          </tr>
+          <tr>
+            <td colspan="2"> <input type="text" size="50" placeholder="Mobile number or email address"> </td>
+          </tr>
+          <tr>
+            <td colspan="2"> <input type="text" size="50" placeholder="New password"> </td>
+          </tr>
+        </table><br>
+    
+      <p class="bday"><b>Birthday</p></b>
+      <div class="birth_date">
+        <select class="month">
+          <option>Month<option>Jan<option>Feb<option>Mar<option>Apr<option>May<option>Jun
+          <option>Jul<option>Aug<option>Sep<option>Oct<option>Nov<option>Dec
+        </select>
+
+        <select class="day">
+          <option>Day<option>1<option>2<option>3<option>4<option>5<option>6<option>7
+          <option>8<option>9<option>10<option>11<option>12<option>13<option>14<option>15
+          <option>16<option>17<option>18<option>19<option>20<option>21<option>22<option>23
+          <option>24<option>25<option>26<option>27<option>28<option>29<option>30<option>31
+        </select>
+ 
+        <select class="year">
+          <option>Year<option>1970<option>1972<option>1974<option>1976<option>1978<option>1980<option>1982
+          <option>1984<option>1986<option>1988<option>1990<option>1992<option>1995<option>1997<option>2000
+          <option>2002<option>2003<option>2004<option>2005<option>2006<option>2007<option>2008<option>2009
+          <option>2010<option>2011<option>2012<option>2013<option>2014<option>2015<option>2016<option>2017
+          <option>2018<option>2019<option>2020<option>2021
+        </select> 
+        <span class="glyphicon glyphicon-question-sign"></span></p>
+        </div>
+
+        <br> <p class="gender"><b>Gender</p></b>
+        <table>
+          <tr>
+            <td>
+              <input type="radio" name="gen" value="female">
+              <p class="font">Female</p></td>
+            <td>
+              <input type="radio" name="gen" value="male">
+              <p class="font">Male</p></td>
+            </td>
+            <td>
+              <input type="radio" name="gen" value="custom">
+              <p class="font">Custom</p></td>
+            </td>
+            <td>
+              <span class="glyphicon glyphicon-question-sign"></span></p>
+            </td>
+          </tr>
+          </table>
+      </form>
+
+        <p class="agreement">By clicking Sign Up, you agree to our <a href="#">Terms, Data Policy and Cookies Policy.</a> You may receive SMS Notifications from us and can opt out any time.</p>
+
+        <button class="signup">Sign Up</button><br>
+
+        <br><p class="page"><a href="#">Create a Page </a> for a celebrity, band or business.</p>
+    </div>
+  </body>
+  </html>
